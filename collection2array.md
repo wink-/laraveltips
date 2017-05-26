@@ -1,3 +1,5 @@
+### Laravel 5.3/5.4
+
 What if you have a collection of carbon objections, but you need to feed your view an array of dates? Lets assume you have a temperature data logger that records a temperature every minute and you want to plot that temperature vs the timestamp.
 ```
 Temperature::where('record_id', 1)->orderBy('created_at', 'desc')->take(1440)->get();
