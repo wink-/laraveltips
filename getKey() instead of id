@@ -1,0 +1,4 @@
+When dealing with weird primary keys, you can use $model->getKey() instead of $model->WeirdPrimaryKey.
+
+https://www.reddit.com/r/laravel/comments/7ejj0v/usergetkey_vs_userid/
+https://laravel.com/api/8.x/Illuminate/Database/Eloquent/Model.html#method_getKey
